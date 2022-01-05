@@ -23,7 +23,7 @@ class Employee(BaseModel):
     Emp_Name: str
     Emp_Qualification: str
 
-
+#add comment
 @app.api_route("/employee-details/{id}", methods=["GET"])
 def get_employee_details (id:int):
         cursor=conn.cursor()
